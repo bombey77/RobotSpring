@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="auto" class="Robot.ModelT1000" autowire="byName"/>
+
+    <!--<bean id="sonyLeg" class="Robot.SonyLeg"/>
+    <bean id="sonyHand" class="Robot.SonyHand"/>
+    <bean id="sonyHead" class="Robot.SonyHead"/>-->
+
+    <bean name="toshibaLeg" class="Robot.ToshibaLeg"/>
+    <bean name="toshibaHand" class="Robot.ToshibaHand"/>
+    <bean name="toshibaHead" class="Robot.ToshibaHead"/>
+
+</beans>

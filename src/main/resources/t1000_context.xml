@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <import resource="sony_context.xml"/>
+    <!--<import resource="toshiba_context.xml"/>-->
+
+    <bean name="t1000" class="Robot.ModelT1000" scope="singleton" autowire="byName">
+
+    </bean>
+
+
+    <!--<bean name="roboT1000" class="Robot.ModelT1000" scope="prototype" parent="t1000">
+        <constructor-arg name="color" value="Black" index="3" type="java.lang.String"/>
+        <constructor-arg name="year" value="1234" index="4" type="int"/>
+        <constructor-arg name="soundEnabled" value="true" index="5" type="boolean"/>
+    </bean>-->
+
+</beans>
