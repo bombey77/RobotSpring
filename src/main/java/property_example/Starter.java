@@ -12,5 +12,9 @@ public class Starter {
         rockSong.play();
 
         ((ConfigurableApplicationContext)context).close();
+
+//        init
+//        Carnival of Rust from Poets of the fall is playing...
+//        destroy
     }
 }
